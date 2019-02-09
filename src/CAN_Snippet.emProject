@@ -1,0 +1,45 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="CAN_Snippet" target="8" version="2">
+  <project Name="CAN_Snippet">
+    <configuration
+      Name="Common"
+      arm_architecture="v6M"
+      arm_core_type="Cortex-M0"
+      arm_endian="Little"
+      arm_fp_abi="Soft"
+      arm_fpu_type="None"
+      arm_linker_heap_size="1024"
+      arm_linker_process_stack_size="0"
+      arm_linker_stack_size="1024"
+      arm_linker_variant="SEGGER"
+      arm_simulator_memory_simulation_parameter="RX 08000000,00004000,FFFFFFFF;RWX 20000000,00001800,CDCDCDCD"
+      arm_target_device_name="STM32F042G4"
+      arm_target_interface_type="SWD"
+      debug_target_connection="J-Link"
+      link_linker_script_file="$(ProjectDir)/SEGGER_Flash.icf"
+      linker_output_format="hex"
+      linker_section_placements_segments="FLASH RX 0x08000000 0x00004000;RAM RWX 0x20000000 0x00001800"
+      project_directory=""
+      project_type="Executable" />
+    <folder Name="Source Files">
+      <configuration Name="Common" filter="c;cpp;cxx;cc;h;s;asm;inc" />
+      <file file_name="main.c" />
+      <file file_name="system_stm32f0xx.c">
+        <configuration Name="Debug" build_exclude_from_build="No" />
+      </file>
+      <file file_name="system_stm32f0xx.h" />
+    </folder>
+    <folder Name="System Files">
+      <file file_name="Cortex_M_Startup.s" />
+      <file file_name="SEGGER_THUMB_Startup.s">
+        <configuration Name="Debug" build_exclude_from_build="No" />
+      </file>
+      <configuration Name="Debug" build_exclude_from_build="No" />
+    </folder>
+  </project>
+  <configuration
+    Name="Debug"
+    c_preprocessor_definitions="DEBUG"
+    gcc_debugging_level="Level 3"
+    gcc_optimization_level="None" />
+</solution>
