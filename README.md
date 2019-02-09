@@ -1,4 +1,4 @@
-# CAN-Data-Diode-STM32-ARM
+# CAN Data Security Diode STM32 ARM
 The code and documentation in this repository support a version of the CAN Data Security Diode that uses an ARM Cortex-M0 Processor with a CAN Controller made by ST. The specific chip use in this design is the [STM32F042K4](https://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f0-series/stm32f0x2/stm32f042k4.html).
 
 
@@ -21,3 +21,6 @@ The Licensed Material is the CAN Data Diode hardware design, which includes sche
 
 ### Commercial Use
 For commercial applications, please contact the University of Tulsa's Office of Research and Sponsored Programs for licensing opportunities.
+
+## Acknowledgments
+The authors and designers would like to acknowledge the support of the National Motor Freight Traffic Association, Inc. (NMFTA) in creating this device. Their leadership in the promoting and improving cybersecurity of heavy vehiles should not go unnoticed. 
