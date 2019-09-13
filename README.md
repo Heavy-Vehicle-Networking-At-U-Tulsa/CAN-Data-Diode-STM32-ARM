@@ -2,7 +2,7 @@
 The code and documentation in this repository support a version of the CAN Data Security Diode that uses an ARM Cortex-M0 Processor with a CAN Controller made by ST. The specific chip use in this design is the [STM32F042K4](https://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f0-series/stm32f0x2/stm32f042k4.html).
 
 ## Documentation
-The CAN Data Diode Concept was presented at the 2019 ESCAR USA conference in Ypsilanti, MI. The [presentation slide deck](docs/2019_ESCAR_US_Daily2_Lecture.pdf) is in the docs folder. The [extended abstract](docs/CAN_Data_Diode_Abstract.pdf) aslo describes the system and the way it works. The design and production documents are available in this repository. 
+The CAN Data Diode was presented at the 2019 ESCAR USA conference in Ypsilanti, MI. The [presentation slide deck](docs/2019_ESCAR_US_Daily2_Lecture.pdf) is in the docs folder. The [extended abstract](docs/CAN_Data_Diode_Abstract.pdf) aslo describes the system and the way it works. The design and production documents are available in this repository. 
 
 ## Source Code
 The source code in this repository is built on [Example Code snippets](https://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32snippets/stm32snippetsf0.html) covering STM32 F0 series.
